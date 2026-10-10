@@ -1,0 +1,22 @@
+# ===== 绝不提交的敏感/本地文件 =====
+# 麦当劳 MCP Token（无论放在哪里都不能进仓库）
+.mcp_token
+mcp_token
+mcp_token.txt
+*.token
+.env
+config/mcd/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# ===== 系统/编辑器 =====
+.DS_Store
+.idea/
+.vscode/
+*.swp
