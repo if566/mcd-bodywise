@@ -24,7 +24,7 @@ curl -s -X POST https://api.github.com/user/repos \
   -d '{"name":"mcd-bodywise","description":"麦当劳·身体情况定制营养推荐 Skill（基于官方 MCP）","public":true,"auto_init":false}'
 
 # 2) 在本仓库目录关联远程并推送
-git remote add origin https://github.com/<你的GitHub用户名>/mcd-bodywise.git
+git remote add origin https://github.com/if566/mcd-bodywise.git
 git branch -M main
 git push -u origin main
 ```
@@ -39,12 +39,12 @@ git push -u origin main
 
 ```bash
 cd mcd-bodywise-skill
-git remote add origin https://github.com/<你的GitHub用户名>/mcd-bodywise.git
+git remote add origin https://github.com/if566/mcd-bodywise.git
 git branch -M main
 git push -u origin main
 ```
 
-（若本机已配 SSH，可改用 `git@github.com:<用户名>/mcd-bodywise.git`）
+（若本机已配 SSH，可改用 `git@github.com:if566/mcd-bodywise.git`）
 
 ---
 
@@ -62,8 +62,8 @@ MCD Bodywise 是一个根据「用户今日身体情况」推荐合适热量与�
 最后调用麦当劳官方 MCP 实时营养数据，筛出匹配目标的餐品组合，并可叠加实时价格与门店券。
 
 ## 作者 / GitHub
-- 作者：<你的GitHub用户名>
-- 仓库：https://github.com/<你的GitHub用户名>/mcd-bodywise
+- 作者：if566
+- 仓库：https://github.com/if566/mcd-bodywise
 
 ## 基于麦当劳官方 MCP 的能力
 - list-nutrition-foods：拉取全部餐品营养成分（能量/蛋白/脂肪/碳水/钠/钙）
